@@ -1,0 +1,17 @@
+EXERCISE 2:
+SELECT SUM(salario_anterior + salario_reajustado) FROM funcionarios
+
+SOMA DOS SALÁRIO ATUAL(REAJUSTADO):
+SELECT SUM(salario_reajustado) FROM funcionarios
+
+SOMA DOS SALÁRIOS ANTERIORES:
+SELECT SUM(salario_anterior) FROM funcionarios
+
+EXERCISE 3:
+
+Inseri os dados na tabela de acordo com os dados passados:
+INSERT INTO func(nome, cargo, re, empresa, status) VALUES ('Antonio Pereira', 7, 54, 1, 'D');
+
+
+Listar todos os funcionários “(A)tivos” da empresa “1” em ordem alfabética. As informações a serem listadas são o nome do funcionário e seu respectivo cargo:
+SELECT f.nome, c.descricao FROM func f INNER JOIN cargo c ON f.cod_cargo = c.cod_cargo WHERE f.empresa = 1 AND f.status = 'A' ORDER BY f.nome ASC;

@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(1, 60, 94) 0%,
+    rgb(22, 157, 211) 35%,
+    rgb(2, 106, 155) 100%
+  );
+  /* background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #35b0e9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 800px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+img {
+  width: 100px;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+p {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-right: 100px;
+  margin-top: 45px;
+  float: right;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.header {
+  background-color: #0e5f95;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.form {
+  padding: 20px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  display: block;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+
+.form button {
+  background-color: #0e5f95;
+  border: 2px solid #ffffff;
+  color: #fff;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
